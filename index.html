@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  </head>
+  <body>
+    <header class="header container">
+      <img class="logo" src="./assets/images/logo.svg" alt="logo" />
+      <nav class="main__nav">
+        <ul class="nav__links">
+          <li><a class="nav__link" href="#">Home</a></li>
+          <li><a class="nav__link" href="#"> New</a></li>
+          <li><a class="nav__link" href="#"> Popular</a></li>
+          <li><a class="nav__link" href="#"> Trending</a></li>
+          <li><a class="nav__link" href="#"> Categories</a></li>
+        </ul>
+        <div class="close-bar">
+          <img src="./assets/images/icon-menu-close.svg" alt="" />
+        </div>
+      </nav>
+      <div class="menu-bar">
+        <img src="./assets/images/icon-menu.svg" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <section class="main grid container">
+        <div class="main__news grid">
+          <div class="main__news__img">
+            <img class="mobile__phone" src="./assets/images/image-web-3-mobile.jpg" alt="" />
+            <img class="desktop" src="./assets/images/image-web-3-desktop.jpg" alt="">
+          </div>
+          <div class="main__nav__content grid">
+            <h1 class="heading-primary">The Bright Future of Web 3.0?</h1>
+            <div class="main_news_data">
+              <p class="main__news_des">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <a class="btn" href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <article class="news__aside">
+          <h2 class="heading-secondary">New</h2>
+          <ul class="news__aside__lists">
+            <li>
+              <a href="#">Hydrogen VS Electric Cars</a>
+              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </li>
+            <div class="line-through"></div>
+            <li>
+              <a href="#">The Downsides of AI Artistry</a>
+              <p>
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+            </li>
+            <div class="line-through"></div>
+            <li>
+              <a href="#"> Is VC Funding Drying Up?</a>
+              <p>
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer >
+      <div class="grid news__sections container">
+        <div class="news__col">
+          <div class="news__img">
+            <img src="./assets/images/image-retro-pcs.jpg" alt="" />
+          </div>
+          <div class="news__data">
+            <h2>01</h2>
+            <a href="#">Reviving Retro PCs</a>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="news__col">
+          <div class="news__img">
+            <img src="./assets/images/image-top-laptops.jpg" alt="" />
+          </div>
+          <div class="news__data">
+            <h2>02</h2>
+            <a href="#"> Top 10 Laptops of 2022</a>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="news__col">
+          <div class="news__img">
+            <img src="./assets/images/image-gaming-growth.jpg" alt="" />
+          </div>
+          <div class="news__data">
+            <h2>03</h2>
+            <a href="#"> The Growth of Gaming</a>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
